@@ -1,0 +1,67 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<tittle>Event Registration Form</tittle>
+<style>
+body {
+font-family:Arial,sans-serif;
+background:#f2f2f2;
+display:flex;
+justify content:center;
+padding:50px;
+}
+form {
+background:white;
+padding:20px30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+width:300px;
+}
+input,select,textarea {
+width:100%;
+padding:10px;
+margin-top:10px;
+margin-bottom:15px;
+border:1px solid#ccc;
+border-radius:5px;
+}
+button {background:#4CAF50;
+color:blue;
+padding:10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+width:100%
+}
+button:hover {
+background:#45ao49;
+}
+h2{
+text-align:center;
+}
+</style>
+</head>
+<body>
+<form action="/submit "method="POST">
+<h2>Event Registration</h2>
+<label for="name">Full Name</label><br><br>
+<input type="text" id ="name="name "required><br><br >
+<label for="email">Email Address</label><br><br>
+<input type="email" id ="eamil" name="email" required><br><br >
+<label for="phone">phone number</label><br><br>
+<input type="tel" id ="phone"name="phone" required><br><br >
+<label for="event">choose Event</label><br><br>
+<select id="event"name=event"> 
+<option value="coding">coding contest</option><br><br>
+<option value="debate">Debate</option><br><br>
+<option value="music">music show</option><br><br>
+<button type="submit">Register</button>
+</form>
+</body>
+</html>
+
+
+
+
+
